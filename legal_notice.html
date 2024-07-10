@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Notice</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/logo.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <script src="./script.js"></script>
+    <script src="./js/storage.js"></script>
+</head>
+
+<body onload="includeHTML(() => { checkUserLogin(setProfileInitials); })">
+    <section class="main-container">
+        <div w3-include-html="./assets/templates/nav.html"></div>
+        <div class="right-section">
+            <div w3-include-html="./assets/templates/header.html"></div>
+            <div class="content" id="main-content">
+                <div class="content-container" id="text-content">
+                    <div class="legal-notice">
+                        <div class="sub-site-title">
+                            <h1>Legal Notice</h1>
+                            <img class="sub-site-img"src="assets/img/icons/arrow-left-blue.png" alt="Back" onclick="history.back();">
+                        </div>
+                        
+                        <ul>
+                            <li>Prashant Mishra</li>
+                            <li>prashant2309mgmail.com</li>
+                        </ul>
+                        <h4>Acceptance of terms</h4>
+                        <p>Legal Notice
+                            This legal notice pertains to the information contained within this communication. The content of this message, including any attachments, is confidential and intended solely for the individual or entity to whom it is addressed. If you have received this message in error, please notify the sender immediately by replying to this email and delete the message from your system.
+
+                            Any unauthorized use, dissemination, distribution, or copying of this communication is strictly prohibited. The opinions expressed within this communication are those of the author and do not necessarily reflect the views or policies of the organization.
+                            
+                            This communication is based on contributions from the open-source project and has been modified by:
+                            
+                            Prashant Mishra
+                            
+                 
+                 
+
+                            For any questions or notices, please contact me at
+                            <span class="join-blue">prashant2309m@gmail.com</span>.
+                        </p>
+                        <br>
+                        <p>Date: JUNE 9, 2024</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
